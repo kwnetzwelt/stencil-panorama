@@ -18,7 +18,7 @@ Shaders reside in the Menu: "Stencil/Panorama/*". Shaders are rendering in Trans
 Transparent Queue (3000)
 
 | Queue | Menu location | Stencil Operation | Notes |
-|---|---|---|---|---|
+| --- | --- | --- | --- |
 |+50| Stencil/Panorama/Surface | always writes 2 | ignores z-test fails (always writes 2 everywhere the mesh is on screen)|
 |+51| Stencil/Panorama/Occlusion | always writes 1| |
 |+52| Stencil/Panorama/Skybox | where 2 is written | writes to z-buffer, does not test for z|
